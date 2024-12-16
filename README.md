@@ -1,7 +1,7 @@
 NOTES API
 
 CRUD - endpoints operation backend only 
-using AWS Lambda, API Gateway, DynamoDB, and Middleware for authentication and authorization.
+using AWS and Middleware for authentication and authorization.
 
 In Insomnia or Postman, first post with sign up endpoint and then login with login endpoint. You will receive an authentication token for the user. 
 Copy the token to the Auth section and choose Bearer Token as auth type to continue with the rest of the operations.
@@ -95,5 +95,15 @@ Response:
 {
 	"message": "Note deleted successfully"
 }
+
+HTTP / JSON response:
+
+200 
+201 
+400
+401 
+404 
+409 
+500 
 
 
