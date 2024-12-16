@@ -77,5 +77,23 @@ Response:
 	"title": "Updated Title"
 }
 
+GET Get Notes
+
+Empty request body 
+
+
+DELETE Delete Notes
+
+Request Body:
+
+{ 
+	"id": " "
+}
+
+Response:
+
+{
+	"message": "Note deleted successfully"
+}
 
 
