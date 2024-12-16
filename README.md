@@ -1,7 +1,7 @@
 NOTES API
 
 CRUD - endpoints operation backend only 
-Using AWS Lambda, API Gateway, DynamoDB, and Middleware for authentication and authorization.
+using AWS Lambda, API Gateway, DynamoDB, and Middleware for authentication and authorization.
 
 In Insomnia or Postman, first post with sign up endpoint and then with login endpoint.
 You will receive an authentication token for the user. Copy the token to the Auth section and choose Bearer Token as auth type before continuing with adding notes etc.
