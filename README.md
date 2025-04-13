@@ -31,7 +31,7 @@ Response:
 
 </pre>
 
-POST LOGIN
+**POST-endpoint LOGIN**
 
 Request Body:
 
@@ -46,7 +46,7 @@ Request Body:
 
 </pre>
 
-Response:
+`Response:`
 
 <pre>
 	
@@ -56,9 +56,9 @@ Response:
 
 </pre>
 
-POST Add Notes
+**POST-endpoint Add Notes**
 
-Request Body:
+`Request Body:`
 
 <pre>
 
@@ -87,9 +87,9 @@ Response:
 
 </pre>
 
-PUT Update Notes
+**PUT-endpoint Update Notes**
 
-Request Body:
+`Request Body:`
 
 <pre>
 	
@@ -120,14 +120,14 @@ Response:
 
 </pre>
 	
-GET Get Notes
+**GET-endpoint Get Notes**
 
 Empty request body 
 
 
-DELETE Delete Notes
+**DELETE-endpoint Delete Notes**
 
-Request Body:
+`Request Body:`
 <pre>
 { 
 	"id": " "
@@ -141,7 +141,7 @@ Response:
 }
 </pre>
 
-HTTP / JSON response:
+`HTTP / JSON response:`
 
 200 <br>
 201 <br>
