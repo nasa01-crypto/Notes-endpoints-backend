@@ -1,12 +1,11 @@
-NOTES API
+**NOTES API with AWS configure**
 
-CRUD - endpoints operation backend only 
-using AWS and Middleware for authentication and authorization.
+CRUD (Create - Read - Update - Delete) endpoints operation backend only using AWS and Middleware for authentication and authorization.
 
 In Insomnia or Postman, first post with sign up endpoint and then login with login endpoint. You will receive an authentication token for the user. 
 Copy the token to the Auth section and choose Bearer Token as auth type to continue with the rest of the operations.
 
-**POST SIGN UP**
+**POST-endpoint SIGN UP**
 
 `Request Body:`
 
