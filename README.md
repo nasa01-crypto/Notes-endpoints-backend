@@ -51,7 +51,7 @@ Copy the token to the Auth section and choose Bearer Token as auth type to conti
 <pre>
 	
 {
-	"token": "ey----------->"
+  "token": "ey----------->"
 }
 
 </pre>
@@ -76,12 +76,12 @@ Copy the token to the Auth section and choose Bearer Token as auth type to conti
 <pre>
 {
 	
-	"id": " ",
-	"username": "your_username",
-	"title": "My First Note",
-	"text": "This is the content of the note",
-	"createdAt": "2024-12-16T13:39:40.730Z",
-	"modifiedAt": "2024-12-16T13:39:40.730Z"
+  "id": " ",
+  "username": "your_username",
+  "title": "My First Note",
+  "text": "This is the content of the note",
+  "createdAt": "2024-12-16T13:39:40.730Z",
+  "modifiedAt": "2024-12-16T13:39:40.730Z"
 	
 }
 
@@ -95,9 +95,9 @@ Copy the token to the Auth section and choose Bearer Token as auth type to conti
 	
 { 
 
-"id": "	", 
-"title": "Updated Title", 
-"text": "Updated content" 
+  "id": "	", 
+  "title": "Updated Title", 
+  "text": "Updated content" 
 	
 }
 
@@ -109,12 +109,12 @@ Copy the token to the Auth section and choose Bearer Token as auth type to conti
 
 {
 	
-	"createdAt": "2024-12-16T13:39:46.248Z",
-	"modifiedAt": "2024-12-16T13:40:39.867Z",
-	"text": "Updated content",
-	"username": "your_username",
-	"id": " ",
-	"title": "Updated Title"
+  "createdAt": "2024-12-16T13:39:46.248Z",
+  "modifiedAt": "2024-12-16T13:40:39.867Z",
+  "text": "Updated content",
+  "username": "your_username",
+  "id": " ",
+  "title": "Updated Title"
 	
 }
 
@@ -130,14 +130,14 @@ Copy the token to the Auth section and choose Bearer Token as auth type to conti
 `Request Body:`
 <pre>
 { 
-	"id": " "
+ "id": " "
 }
 </pre>
 
 `Response:`
 <pre>
 {
-	"message": "Note deleted successfully"
+  "message": "Note deleted successfully"
 }
 </pre>
 
