@@ -13,10 +13,9 @@ Request Body:
 <pre> ```
 
 {
-  "username": "your_username",
+ "username": "your_username",
   "password": "your_password"
-}``` 
-</pre>
+}``` </pre>
 
 
 Response:
