@@ -9,8 +9,6 @@ Copy the token to the Auth section and choose Bearer Token as auth type to conti
 
 `Request Body:`
 
-```bash```
-
 <pre>
 
 {
