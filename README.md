@@ -21,7 +21,7 @@ Copy the token to the Auth section and choose Bearer Token as auth type to conti
 
 
 
-Response:
+`Response:`
 
 <pre>
 
@@ -33,7 +33,7 @@ Response:
 
 **POST-endpoint LOGIN**
 
-Request Body:
+`Request Body:`
 
 <pre>
 
@@ -71,7 +71,7 @@ Request Body:
 
 </pre>
 
-Response:
+`Response:`
 
 <pre>
 {
@@ -103,7 +103,7 @@ Response:
 
 </pre>
 
-Response:
+`Response:`
 
 <pre>
 
@@ -134,7 +134,7 @@ Empty request body
 }
 </pre>
 
-Response:
+`Response:`
 <pre>
 {
 	"message": "Note deleted successfully"
