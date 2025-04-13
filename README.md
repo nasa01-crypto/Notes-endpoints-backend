@@ -10,14 +10,15 @@ POST SIGN UP
 
 Request Body:
 
-<pre> ```
+<pre>
 
 {
  "username": "your_username",
   "password": "your_password"
-}``` </pre>
+} 
+</pre>
 
-<pre> ```bash npm install ``` </pre>
+
 
 Response:
 
