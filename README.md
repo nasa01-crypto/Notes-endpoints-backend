@@ -27,7 +27,7 @@ Response:
 <pre>
 
 {
-	"message": "User created successfully"	
+  "message": "User created successfully"	
 }
 
 </pre>
@@ -55,7 +55,7 @@ Response:
 	"token": "ey----------->"
 }
 
-<pre>
+</pre>
 
 POST Add Notes
 
