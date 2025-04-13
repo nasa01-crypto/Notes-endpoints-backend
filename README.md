@@ -17,6 +17,7 @@ Request Body:
   "password": "your_password"
 }``` </pre>
 
+<pre> ```bash npm install ``` </pre>
 
 Response:
 
