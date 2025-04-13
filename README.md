@@ -6,7 +6,7 @@ using AWS and Middleware for authentication and authorization.
 In Insomnia or Postman, first post with sign up endpoint and then login with login endpoint. You will receive an authentication token for the user. 
 Copy the token to the Auth section and choose Bearer Token as auth type to continue with the rest of the operations.
 
-POST SIGN UP 
+`POST SIGN UP`
 
 Request Body:
 
@@ -144,12 +144,12 @@ Response:
 
 HTTP / JSON response:
 
-200 
-201 
-400
-401 
-404 
-409 
-500 
+200 <br>
+201 <br>
+400 <br>
+401 <br>
+404 <br>
+409 <br>
+500 <br>
 
 
