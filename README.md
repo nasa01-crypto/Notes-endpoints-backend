@@ -13,8 +13,10 @@ Request Body:
 <pre>
 
 {
+	
  "username": "your_username",
-  "password": "your_password"
+ "password": "your_password"
+	
 } 
 </pre>
 
@@ -22,33 +24,57 @@ Request Body:
 
 Response:
 
+<pre>
+
 {
+	
 	"message": "User created successfully"
+	
 }
+
+</pre>
 
 POST LOGIN
 
 Request Body:
 
+<pre>
+
 {
+	
   "username": "your_username",
   "password": "your_password"
+	
 }
+
+</pre>
 
 Response:
 
+<pre>
+	
 {
+	
 	"token": "ey----------->"
+	
 }
+
+<pre>
 
 POST Add Notes
 
 Request Body:
 
+<pre>
+
 {
+	
   "title": "My First Note",
   "text": "This is the content of the note"
+	
 }
+
+</pre>
 
 Response:
 
