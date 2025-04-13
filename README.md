@@ -27,9 +27,7 @@ Response:
 <pre>
 
 {
-	
-	"message": "User created successfully"
-	
+	"message": "User created successfully"	
 }
 
 </pre>
@@ -54,9 +52,7 @@ Response:
 <pre>
 	
 {
-	
 	"token": "ey----------->"
-	
 }
 
 <pre>
@@ -78,36 +74,53 @@ Request Body:
 
 Response:
 
+<pre>
 {
+	
 	"id": " ",
 	"username": "your_username",
 	"title": "My First Note",
 	"text": "This is the content of the note",
 	"createdAt": "2024-12-16T13:39:40.730Z",
 	"modifiedAt": "2024-12-16T13:39:40.730Z"
+	
 }
+
+</pre>
 
 PUT Update Notes
 
 Request Body:
 
+<pre>
+	
 { 
+
 "id": "	", 
 "title": "Updated Title", 
 "text": "Updated content" 
+	
 }
+
+</pre>
 
 Response:
 
+<pre>
+
 {
+	
 	"createdAt": "2024-12-16T13:39:46.248Z",
 	"modifiedAt": "2024-12-16T13:40:39.867Z",
 	"text": "Updated content",
 	"username": "your_username",
 	"id": " ",
 	"title": "Updated Title"
+	
 }
 
+</pre>
+	
 GET Get Notes
 
 Empty request body 
@@ -116,16 +129,18 @@ Empty request body
 DELETE Delete Notes
 
 Request Body:
-
+<pre>
 { 
 	"id": " "
 }
+</pre>
 
 Response:
-
+<pre>
 {
 	"message": "Note deleted successfully"
 }
+</pre>
 
 HTTP / JSON response:
 
