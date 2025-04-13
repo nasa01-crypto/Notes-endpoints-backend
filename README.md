@@ -122,7 +122,7 @@ Copy the token to the Auth section and choose Bearer Token as auth type to conti
 	
 **GET-endpoint Get Notes**
 
-Empty request body 
+<pre>Empty request body </pre>
 
 
 **DELETE-endpoint Delete Notes**
@@ -142,7 +142,7 @@ Empty request body
 </pre>
 
 `HTTP / JSON response:`
-
+<pre>
 200 <br>
 201 <br>
 400 <br>
@@ -150,5 +150,6 @@ Empty request body
 404 <br>
 409 <br>
 500 <br>
+</pre>
 
 
